@@ -1,0 +1,5 @@
+conda create -n webhw45 python=3.9 -y
+conda activate webhw45
+pip install fastapi firebase_admin modal
+modal token new
+modal deploy app.py

@@ -30,7 +30,7 @@ web_app.add_middleware(
     allow_headers=["*"],
 )
 image = Image.debian_slim(python_version="3.9").pip_install("firebase_admin")
-stub = Stub("web-hw3-api", image=image)
+stub = Stub("webhw45", image=image)
 
 db = None
 
